@@ -1,5 +1,2 @@
 # Library-JS-Project
-Created Library Project using HTML, CSS, and JavaScript. 
-APIs used so far: Fetch API, Open Library API
-Planning: Trying to implememnt a reviews backend that uses MongoDB to store the reviews and Express JS and CORS
-Based on freeCodeCamp's resource.
+Created Library Project using HTML, CSS, and JavaScript. I have so far used Fetch API from JS and Open Library API. I am currently trying to implememnt a reviews database that uses MongoDB to store the reviews and Express JS and CORS for server-side. This project was based on freeCodeCamp's resource.
