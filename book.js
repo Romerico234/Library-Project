@@ -1,4 +1,4 @@
-const APILINK = "http://localhost:127.0.0.1:3000//api/v1/reviews/"; // Replace with your actual API endpoint
+const APILINK = "https://romerico234.github.io/Library-Project/";
 const url = new URL(location.href);
 const bookId = url.searchParams.get("id");
 const bookTitle = url.searchParams.get("title");
@@ -25,8 +25,6 @@ div_new.innerHTML = `
   </div>
 `;
 main.appendChild(div_new);
-
-returnReviews(APILINK);
 
 function returnReviews(url) {
     fetch(url + "book/" + bookId)
