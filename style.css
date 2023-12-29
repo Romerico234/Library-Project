@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8B735B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h3 {
+    color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #8B735B;
+    padding: 10px;
+    display: flex; /* Add flex display to align items horizontally */
+    justify-content: space-between; /* Align items to the left and right */
+    align-items: center; /* Center items vertically */
+}
+
+.topnav a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 14px 16px;
+    text-transform: uppercase;
+}
+
+.topnav .search-bar {
+    border: 2px solid #604020;
+    border-radius: 8px;
+}
+
+form {
+    background-color: #A08060;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+input {
+    all: unset;
+    font: 15px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+    text-decoration: none;
+}
+
+#section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.thumbnail,
+.card {
+    border-radius: 19px;
+    margin: 10px;
+}
+
+.thumbnail {
+    height: 50%;
+    width: 50%;
+}
+
+.card {
+    padding: 15px;
+    text-align: center;
+    background-color: #A08060;
+    width: 250px;
+    height: 300px;
+}
