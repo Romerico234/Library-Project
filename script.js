@@ -38,7 +38,7 @@ function returnReviews(url) {
 
         const title = document.createElement('h3');
         title.setAttribute('id', 'title');
-        title.innerHTML = `${book.title}<br><a href="book.html?id=${book.id}&title=${book.title}">reviews</a>`;
+        title.innerHTML = `${book.title}<br><a href="book.html?id=${book.isbn}&title=${book.title}">Reviews</a>`;
 
         const center = document.createElement('center');
         center.appendChild(image);
